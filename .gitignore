@@ -1,0 +1,71 @@
+# === Системные файлы операционных систем ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === Файлы и папки редакторов кода (IDE) ===
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === Логи, кэш и временные файлы ===
+*.log
+logs/
+*.tmp
+*.bak
+.cache/
+.sass-cache/
+
+# === Секреты, пароли и переменные окружения ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+config/secure.json
+
+# === Базы данных и локальные хранилища ===
+*.sqlite
+*.sqlite3
+.db
+.pstore
+
+# === Дистрибутивы, архивы и билды ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
+dist/
+build/
+out/
+
+# === Python (Кэш и виртуальное окружение) ===
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Кэш компиляции Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Кэширование тестов и статического анализа
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
