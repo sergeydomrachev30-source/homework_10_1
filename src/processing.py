@@ -12,3 +12,8 @@ def filter_by_state(data: List, state: str = "EXECUTED") -> List:
         if item["state"] == state:
             target_list.append(item)
     return target_list
+
+
+def sort_by_date(data: List, ascending: bool = True) -> List:
+    """Сортирует список словарей по ключу 'date'."""
+    return sorted(data, key=lambda x: x["date"], reverse=ascending)
